@@ -15,7 +15,7 @@ print(name1, ' ', name2, ' ', 'возраст ', age, 'вес ', w)
 if age<30 and w>=50 and w<=120:
     print('Пациент в хорошем состоянии')
 
-if age>40 and (w<50 or w>120):
+elif age>40 and (w<50 or w>120):
     print('Пациенту требуется врачебный осмотр')
 
 elif age>30 and (w<50 or w>120):
